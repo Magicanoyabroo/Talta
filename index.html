@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مسلسل حالة خاصة</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            text-align: center;
+            background-color: #3498db;
+            background-image: url("background.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #f2f2f2;
+            color: #3498db;
+        }
+
+        .logo {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+        }
+
+        .image {
+            width: 300px;
+            height: 300px;
+            margin: 20px auto;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .scroll-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مسلسل حالة خاصة</h1>
+        
+    </header>
+
+    <main>
+        
+
+        <img src="3.jpg" class="image">
+        <a href="episode2.html" class="button">لمشاهدة الحلقة الثالثة اضغط هنا</a>
+
+        <img src="4.jpg" class="image">
+        <a href="episode3.html" class="button">لمشاهدة الحلقة الرابعة اضغط هنا</a>
+    </main>
+
+    <footer>
+        <p>برمجة التالتة شمال على التيك توك</p>
+    </footer>
+
+    <div>
+        <a href="#" class="scroll-button" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">صعود</a>
+        <a href="#" class="scroll-button" onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });">نزول</a>
+    </div>
+</body>
+</html>
